@@ -67,11 +67,11 @@ def inicio():
     2.- Papel
     3.- Tijera
     """))
-    run(player1,player2)
+    
+    run(player1,player2,winsPlayer1, winsPlayer2)
 
 
 if __name__ == "__main__":
     winsPlayer1 = 0
     winsPlayer2 = 0
     inicio()
-    
